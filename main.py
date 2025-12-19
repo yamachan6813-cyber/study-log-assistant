@@ -1,0 +1,10 @@
+subject = input("今日やった科目：")
+time = input("勉強時間（分）：")
+done = input("できたこと：")
+problem = input("詰まった点：")
+
+print("\n【今日の振り返り】")
+print(f"今日は {subject} を {time} 分勉強した。")
+print(f"できたこと：{done}")
+print(f"改善点：{problem}")
+print("明日は弱点を重点的に復習する。")
